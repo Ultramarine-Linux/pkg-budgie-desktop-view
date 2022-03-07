@@ -6,7 +6,7 @@ Summary:        The official Budgie desktop icons application / implementation.
 
 License:        Apache 2.0
 URL:            https://github.com/BuddiesOfBudgie/budgie-desktop-view
-Source0:        https://github.com/BuddiesOfBudgie/budgie-desktop-view/releases/download/v1.1.1/budgie-desktop-view-v%{version}.tar.xz
+Source0:        https://github.com/BuddiesOfBudgie/budgie-desktop-view/releases/download/v%{version}/budgie-desktop-view-v%{version}.tar.xz
 
 BuildRequires:  meson intltool glib2-devel gtk3-devel vala
 Requires:       budgie-desktop
