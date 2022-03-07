@@ -32,10 +32,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %license LICENSE.md
 %doc README.md
-%{_sysconfdir}/xdg/autostart/us.getsol.budgie-desktop-view-autostart.desktop
-%{_bindir}/us.getsol.budgie-desktop-view
-%{_datadir}/glib-2.0/schemas/us.getsol.budgie-desktop-view.gschema.xml
-%{_datadir}/applications/us.getsol.budgie-desktop-view.desktop
+%{_sysconfdir}/xdg/autostart/org.buddiesofbudgie.budgie-desktop-view-autostart.desktop
+%{_bindir}/org.buddiesofbudgie.budgie-desktop-view
+%{_datadir}/glib-2.0/schemas/org.buddiesofbudgie.budgie-desktop-view.gschema.xml
+%{_datadir}/applications/org.buddiesofbudgie.budgie-desktop-view.desktop
 
 %changelog
 * Tue Jan 11 2022 Cappy Ishihara <cappy@cappuchino.xyz>
